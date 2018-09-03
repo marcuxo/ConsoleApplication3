@@ -10,7 +10,9 @@ namespace ConsoleApplication3
     {
        private string nombre;
        private int antiguedad;
-
+/**
+*@ esto no debe estar aca
+*/
         public Socio(string nombre, int antiguedad) {
             Console.WriteLine("Ingresar nombre del socio... ");
             nombre = Console.ReadLine();
