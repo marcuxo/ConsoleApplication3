@@ -15,9 +15,9 @@ namespace ConsoleApplication3
 
         public Club()
         {
-            this.socio1 = new Socio();
-            this.socio2 = new Socio();
-            this.socio3 = new Socio();
+            this.socio1 = new Socio("nombre",33);
+            this.socio2 = new Socio("nombre",33);
+            this.socio3 = new Socio("nombre",33);
         }
 
         public string socioAntiguo(Socio socio1,Socio socio2,Socio socio3){
